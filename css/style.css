@@ -39,6 +39,7 @@ ul#menu{
 li.menu-item a {
     padding: 16px;
     display: inline-block;
+    color: #d3ece5;
 
 }
 li.menu-item:hover, .active {
@@ -89,7 +90,9 @@ header{
     padding: 20px;
     height: 90px;
     width: 100%;
-    background-image:url(./img/imagen-fondo.png);
+    background-image:url(/img/imagen-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     position: fixed;
     top: 0;
     left: 0;
@@ -100,7 +103,7 @@ header{
 /* Menu de navegacion */
 
 #menu-btn {
-    background-color: rgb(85, 232, 232);
+    background-color: rgba(244, 245, 248, 0.845);
     border-radius: 30%;
     outline: 0;
     font-size: 26px;
